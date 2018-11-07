@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'main main main'
+    'main main main';
+  grid-gap: 15px;
+  padding: 10px;
+}
+
+.web {
+    grid-area: header;
+}
+
+.item {
+    grid-area: main;
+    background-color: #D3D3D3;
+}
+
+.content {
+    position: relative;
+    top: 10px;
+    width: 300px;
+  
+    margin-top: 20 px;
+    margin-bottom: 20px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #BA55D3;
+  color: #fff;
+  padding: 25px;
+  font-size: 100%;
+  text-align: left;
+}
